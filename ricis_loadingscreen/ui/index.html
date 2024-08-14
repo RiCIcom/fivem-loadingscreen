@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Screen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="frame1">
+        <img class="background-image" src="images/background.jpg" alt="Background">
+        <div class="overlay"></div>
+        <div class="news-section">
+            <div class="news-content">
+                <div class="info-box">
+                    <div class="title-text">Update Verbesserung</div>
+                    <div class="update-text">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="title-text">RELEASE 1.0</div>
+                    <div class="release-text">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team-section">
+            <div class="team-title">TEAM</div>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="images/profile1.jpg" class="profile-picture" alt="Profile Picture">
+                    YOUR TEAM MEMBER
+                </div>
+                <div class="team-member">
+                    <img src="images/profile2.jpg" class="profile-picture" alt="Profile Picture">
+                    YOUR TEAM MEMBER
+                </div>
+                <div class="team-member">
+                    <img src="images/profile3.jpg" class="profile-picture" alt="Profile Picture">
+                    YOUR TEAM MEMBER
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="server-title-container">
+                <div class="server-title">YOUR Server NAME</div>
+                <div class="server-subtitle">Since 2024</div>
+            </div>
+        </div>
+        <div class="music-control">
+            <div class="song-name">Shadows Of The Night</div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="stop-music">STOP MUSIC WITH <span class="space-bar"></span></div>
+            <div class="volume-control">
+                <input type="range" id="volumeSlider" min="0" max="100" value="50">
+            </div>
+        </div>
+    </div>
+    <audio id="backgroundMusic" src="sounds/music.mp3" loop autoplay></audio>
+    <script src="script.js"></script>
+</body>
+</html>
